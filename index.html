@@ -3,12 +3,26 @@
         <title> Faruk Imamovic - CV </title>
     </head>
 
+    <style>
+        h1 {
+            background-color:  #CBE1DD ;
+            color:#161a19;
+            border: 3px solid #DB9C84;
+            fill: #c0b59f;
+            padding: 10px;
+            width: 300px;
+            font-style: oblique;
+        }
+    </style>
+    
     <body>
+       
         <blockquote>
-         <h1>
+            <h1>
                 Faruk Imamovic
             </h1>
         </blockquote>
+            
         <p><img src="images/me.jpg" alt="Picture of me" width="300" height="300" /></p>
         
         <h2> Table of contents </h2>
@@ -49,6 +63,7 @@
             <li> Programming in C++  </li>
             <li> Programming in Java </li>
             <li> Porgramming in Python </li>
+            <li> Web application development</li>
             <li> Collaborate well in teams </li>
         </ul>
         
@@ -63,6 +78,7 @@
         
         <a id="References"> <h2> References </h2> </a>
         <hr>
+
         <h3> Professor Dr. Ali Abd Almisreb </h3>
         <ul>
             <li>  Faculty of Engineering and Natural Sciences International University of Sarajevo </li>
@@ -70,8 +86,10 @@
             <li> Email: <a href="mailto:aalmisreb@ius.edu.ba">aalmisreb@ius.edu.ba</a> </li>
         </ul>
 
-        <a id="ContactMe"> <h3> Contact me: </h3></a>
+        <a id="ContactMe"> <h2> Contact me: </h2></a>
         <hr>
+
+        <h3> Via social media: </h3>
         <blockquote>
             <p><a href="https://www.facebook.com/faruk.coltimamovic" target="_blank">
                 <img src="images/fb.jpg" alt="Link to my facebook" height="50" width="50" />
@@ -80,6 +98,32 @@
                 <img src="images/ig.jpg" alt="Link to my Instagram" height=50 width = 50>
                 </a>
             </p>
+        </blockquote>
+
+        <h3> Via form: </h3>
+        <blockquote>
+            <form method="get" action="index.html/">
+                <label for="mail"> E-mail: </label>
+                <input type="email" id="mail" name=mail><br>
+
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br>
+
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br>
+
+                <label for="gender"> Gender: </label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label><br>
+
+                <label for="message"> Write your message: </label><br>
+                <input type="text" id="message" name="message"><br>
+                <input type="submit" value="Submit">
+              </form>
         </blockquote>
     </body>
 </html>
