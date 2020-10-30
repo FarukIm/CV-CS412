@@ -1,0 +1,17 @@
+.banner{
+    font-size: 120%;
+    margin-left: 50%;
+    margin-right: 50%;
+    background-color:  #CBE1DD ;
+    color:#161a19;
+    border: 5% solid #DB9C84;
+    fill: #c0b59f;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    width: fit-content;
+    position: absolute;
+    text-align: center;
+    font-style: oblique;
+}
