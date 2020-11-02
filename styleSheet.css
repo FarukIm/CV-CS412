@@ -257,6 +257,7 @@ a:hover {
     float: left;
     padding-left: 3%;
     color: white;
+    font-size: 110%;
 }
 .contact input[type=text]{
     border: none;
@@ -275,7 +276,7 @@ a:hover {
     border-right: 2px solid #c0b59f;
     background-color: transparent;
     padding: 5px;
-    margin-left: 30px;
+    
     width: 50%;
     margin-bottom: 3%;
 }
