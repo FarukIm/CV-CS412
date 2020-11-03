@@ -168,10 +168,11 @@ a:hover {
     height: fit-content;
     border-left: 5px solid white;
     opacity: 0.9;
-    width: 60%;
+    width: 65%;
     background-color: #7495A5;
     float: left;
     padding-left: 30px;
+    padding-right:40px;
     color: black;
 }
 .edurow{
