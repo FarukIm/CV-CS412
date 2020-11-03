@@ -210,7 +210,8 @@ a:hover {
 }
 
 .educontainer img{
-    max-height: auto;
+    height: auto;
+    width: auto;
     max-width: 100%;
     margin-left: auto;
     
