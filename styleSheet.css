@@ -112,7 +112,6 @@ a:hover {
     background-color:  #A2A1BD ;
     color:#161a19;
     text-align: center;
-    font-style: oblique;
     margin: auto;
     width: 80%;
     border: 5px solid #6e625d;
@@ -133,7 +132,6 @@ a:hover {
     height: auto;
     width: auto;
     max-width: 70%;
-
     border: 3px solid #A699A5;
     padding: 1%;
     background-color: #A699A5;
@@ -147,7 +145,7 @@ a:hover {
     padding-top: 2%;
     padding-bottom: 2%;
     padding-right: 2%;
-    padding-left: -10px;
+    padding-left: 10px;
     background-color: #598997;
     color: white;
     width: 40%;
