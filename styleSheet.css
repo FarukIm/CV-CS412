@@ -65,17 +65,17 @@ a:hover {
 
 .navMenu li{
     color: white;
-    /* width: 10%; */
-    /* float: left; */
-    /* margin-right: 6%; */
+    /* width: 10%; 
+     float: left; 
+     margin-right: 6%; */
     list-style-type: none;
     background-color: #252424;
     text-align: center;
     padding: 10px 15px;
     
-    /* height: fit-content; */
-    /* border-left: 3px solid #00000041; */
-    /* border-right: 3px solid #00000041; */
+    /* height: fit-content; 
+     border-left: 3px solid #00000041; 
+     border-right: 3px solid #00000041; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,9 +94,9 @@ a:hover {
     line-height: 1;
 }
 .navmenu a:hover {
-    /* color: gray; */
-    /* font-weight: bold; */
-    /* text-decoration: underline; */
+    /* color: gray; 
+     font-weight: bold; 
+     text-decoration: underline; */
     opacity: 0.8;
 }
 
@@ -213,8 +213,6 @@ a:hover {
     height: auto;
     width: auto;
     max-width: 100%;
-    margin-left: auto;
-    
 }
 
 .skills{
